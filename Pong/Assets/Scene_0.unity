@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  axis: Vertical
+  axis: VerticalLeft
 --- !u!50 &180249323
 Rigidbody2D:
   serializedVersion: 4
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  axis: Vertical
+  axis: VerticalRight
 --- !u!50 &1636839711
 Rigidbody2D:
   serializedVersion: 4
