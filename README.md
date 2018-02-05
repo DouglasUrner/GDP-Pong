@@ -1,2 +1,2 @@
-# GPD-Pong
+# GDP-Pong
 Pong in Unity
