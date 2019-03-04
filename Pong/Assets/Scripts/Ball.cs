@@ -15,13 +15,13 @@ public class Ball : MonoBehaviour {
 		
 		// Ignore collisions with walls.
 		
-		if (col.gameObject.name == "RacketLeft") {
+		if (col.gameObject.name == "PaddleLeft") {
 			float hf = hitFactor(transform, col);
 			Vector2 dir = new Vector2(1, hf).normalized;
 			GetComponent<Rigidbody2D>().velocity = dir * speed;
 		}
 		
-		if (col.gameObject.name == "RacketRight") {
+		if (col.gameObject.name == "PaddleRight") {
 			float hf = hitFactor(transform, col);
 			Vector2 dir = new Vector2(-1, hf).normalized;
 			GetComponent<Rigidbody2D>().velocity = dir * speed;

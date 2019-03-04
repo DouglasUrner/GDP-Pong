@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Racket : MonoBehaviour {
+public class Paddle : MonoBehaviour {
 	public float speed = 30;
 	public string axis = "Vertical";
 	
